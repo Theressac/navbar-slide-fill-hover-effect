@@ -1,0 +1,37 @@
+body {
+  background-color: #0d3b66;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  background-color: #faf0ca;
+  float: left;
+  padding: 12px 8px 12px 8px;
+  font: black;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  background: linear-gradient(to right, #ff9900 50%, #006d77 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+a:hover {
+  background-position: 0 0;
+  transition: 1s;
+}
